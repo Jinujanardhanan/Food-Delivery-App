@@ -20,13 +20,13 @@
 }
 
 .search {
-  margin: 10px;
-  padding: 10px;
-} 
+  padding: 5px;
+}  
 
 .res-container {
   display:flex ;
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 
 .res-card {
@@ -41,10 +41,27 @@
   cursor: pointer;
 }
 
-h4,h3 {
-  margin: 0px;
-}
-
 .res-logo {
   width:100%;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  height: 400px;
+  width: 200px;
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  margin-right: 20px;
+  padding: 0px 10px;
+  cursor: pointer;
+} 
+
+.filter {
+  display: flex;
 }
